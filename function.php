@@ -15,4 +15,20 @@ function sum($numbers) {
 }
 
 // Example usage of sum
-echo sum([1,2,3,4,5,6,7,8,9,10]);
+echo sum([1,2,3,4,5,6,7,8,9,10])."\n";
+//oop in  php
+class Student {
+    // constructor
+    public function __construct($first_name, $last_name) {
+        $this->first_name = $first_name;
+        $this->last_name = $last_name;
+    }
+
+    public function say_name() {
+        echo "My name is " . $this->first_name . " " . $this->last_name . ".\n";
+    }
+}
+
+$alex = new Student("Alex", "Jones");
+$alex->say_name();
+

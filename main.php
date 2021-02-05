@@ -57,3 +57,4 @@ while ($counter < 10) {
 
     echo "Executing - counter is $counter.\n";
 }
+include("function.php");
